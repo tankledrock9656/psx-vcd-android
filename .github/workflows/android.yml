@@ -39,7 +39,7 @@ jobs:
           targets: aarch64-linux-android
 
       - name: Install cargo-ndk
-        run: cargo install cargo-ndk --version 3.5.7 --locked
+        run: cargo install cargo-ndk --locked
 
       - name: Build offline conversion engine for ARM64
         working-directory: native/psx-vcd-engine
